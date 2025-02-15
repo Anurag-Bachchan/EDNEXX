@@ -14,7 +14,7 @@ app.use(express.json());// accessing the values from the request body
 app.use(cookieParser());
 app.use(
     cors({
-        origin:"http://localhost:3000",
+        origin:"https://ednexx-eight.vercel.app/",
         credentials:true
     })
 )
